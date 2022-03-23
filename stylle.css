@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  background-image: url(imagens/images.jpg);
+  background-size: cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
+}
+
+body {
+  display: grid;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+form {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: auto;
+  width: 35%;
+  margin-inline-end: auto;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  color: black;
+}
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 2rem;
+  color: black;
+  text-transform: uppercase;
+}
+.container {
+  margin-top: 6rem;
+}
